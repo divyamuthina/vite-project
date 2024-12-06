@@ -5,11 +5,11 @@ import { PageNotFound } from "./pages/unAuthenticated";
 export const router = () =>
   createBrowserRouter([
     {
-      path: "/",
+      path: "/My-First-React-App",
       element: <Home />,
     },
     {
-      path: "/about",
+      path: "/My-First-React-App/about",
       element: <About />,
     },
     {
