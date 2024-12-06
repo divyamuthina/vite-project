@@ -13,7 +13,7 @@ export const router = () =>
       element: <About />,
     },
     {
-      path: "*",
+      path: "/vite-project/*",
       element: <PageNotFound />,
     },
   ]);
