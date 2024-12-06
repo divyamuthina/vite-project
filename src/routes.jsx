@@ -5,11 +5,11 @@ import { PageNotFound } from "./pages/unAuthenticated";
 export const router = () =>
   createBrowserRouter([
     {
-      path: "/My-First-React-App",
+      path: "/vite-project",
       element: <Home />,
     },
     {
-      path: "/My-First-React-App/about",
+      path: "/vite-project/about",
       element: <About />,
     },
     {

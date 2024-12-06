@@ -4,7 +4,7 @@ export function Home() {
     const navigate  = useNavigate();
 
     const handleAboutClick = () => {
-        navigate('/about');
+        navigate('/vite-project/about');
     }
   return (
     <div>
